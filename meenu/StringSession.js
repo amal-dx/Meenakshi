@@ -3,7 +3,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+Meenakshi - Vishnu-memanakizhakathil
 */
 
 const fs = require('fs');
@@ -13,7 +13,7 @@ class StringSession {
     }
 
     deCrypt(string = undefined) {
-        if ('JULIE_SESSION' in process.env && string === undefined) {
+        if ('MEENU_SESSION' in process.env && string === undefined) {
             string = process.env.STRING_SESSION;
         } else if (string !== undefined) {
             if (fs.existsSync(string)) {
@@ -28,7 +28,7 @@ class StringSession {
     }
 
     createStringSession(dict) {
-        return 'JulieMwol:::' + Buffer.from(JSON.stringify(dict)).toString('base64');
+        return 'Meenakshi:::' + Buffer.from(JSON.stringify(dict)).toString('base64');
     }
 }
 
