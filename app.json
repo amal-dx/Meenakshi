@@ -8,8 +8,8 @@
     "success_url": "https://github.com/vishnu-memanakizhakathil/Meenakshi",
     "stack": "container",
     "env": {
-        "JULIE_SESSION": {
-            "description": "Type here yours Asena Session.",
+        "MEENU_SESSION": {
+            "description": "Meenakshi QR Scan ആക്കിയപ്പോൾ കിട്ടിയ QR code Type ചെയ്യുക, Type here is yours Meenu Session.",
             "required": true
         },
         "SUDO": {
